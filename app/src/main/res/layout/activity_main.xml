@@ -4,7 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Time"
+        android:layout_marginTop="200dp"
+        android:text="09 : 40 PM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45dp"/>
+
+    <Button
+        android:id="@+id/sltTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/radius"
+        android:layout_marginTop="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="Select Time"
+        android:textStyle="normal"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/sltAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/radius"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="Set Alarm"
+        android:textStyle="normal"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/cnlAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/radius"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="Cancel Alarm"
+        android:textStyle="normal"
+        android:textSize="24sp"/>
+
 
 
 </LinearLayout>

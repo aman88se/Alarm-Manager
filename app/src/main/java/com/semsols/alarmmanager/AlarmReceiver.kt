@@ -1,6 +1,5 @@
 package com.semsols.alarmmanager
 
-import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -29,7 +28,7 @@ class AlarmReceiver: BroadcastReceiver(){
 
         val notificationManager = NotificationManagerCompat.from(context)
         notificationManager.notify(123,builder.build())
-        
+
     }
 
 
